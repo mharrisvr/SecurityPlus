@@ -1,0 +1,97 @@
+Domain 1.0 Threats, Attacks, and Vulnerabilities
+
+1.1 Compare and Contrast different types of social engineering techniques. 
+
+	1. Phishing
+	2. Smishing
+	3. Vishing
+	4. Spam
+	5. Spam over Instant Messaging (SPIM)
+	6. Spear phishing
+	7. Dumpster Diving
+		a. Exactly what it sounds like, looking through the trash for relevant things 
+	8. Shoulder Surfing
+	9. Pharming
+	10. Tailgating
+		a. Following someone else in a building / space without using your own badge / credentials 
+	11. Eliciting information
+	12. Whaling:
+		a. Going after bigger fish (CEO/CTO/CIO/COO/etc)
+	13. Prepending
+	14. Identity Fraud
+	15. Invoice Scams
+	16. Credential Harvesting
+	17. Reconnaissance
+	18. Hoax
+	19. Impersonation
+	20. Watering Hole attack
+	21. Typo squatting
+	22. Pretexting
+	23. Influence Campaigns 
+		a. (Hybrid Warfare)
+		b. Social Media
+
+Principles (reasons for effectiveness) 
+	- Authority
+	- Intimidation
+	- Consensus
+	- Scarcity
+	- Familiarity
+	- Trust
+	- Urgency
+	
+	
+1.2 Given a scenario, analyze potential indicators to determine the type of attack. 
+	- Malware
+		○ Ransomware
+		○ Trojans
+		○ Worms
+		○ Potentially unwanted programs (PUPs)
+		○ Fileless virus
+		○ Command and Control
+		○ Bots
+		○ Cryptomalware
+		○ Logic Bombs
+		○ Spyware
+		○ Keyloggers
+		○ Remote access Trojan (RAT)
+		○ Rootkit
+		○ Backdoor 
+	- Password Attacks
+		○ Spraying
+		○ Disctionary
+		○ Brute Force
+			§ Offline
+			§ Online
+		○ Rainbow Table
+		○ Plaintext / unencrypted
+	- Physical Attacks
+		○ Malicious Universal Serial Bus (USB) Cable
+		○ Malicious Flash drive
+		○ Card cloning
+		○ Skimming
+	- Adversearial artificial intelligency (AI) 
+		○ Tainted traning data for Machine learning (ML)
+		○ Security of machine learning algorithms
+	- Supply-chain attacks
+	- Cloud-based vs on.premises attacks
+	- Cryptographic attacks
+		○ Birthday
+		○ Collision
+		○ Downgrade
+
+1.3 Given a scenario, analyze potential indications associated with applications attacks. 
+
+	- Privilege Escalation
+	- Cross-Site Scripting
+	- Injections
+		○ SQL
+		○ Dynamic-link Library (DLL)
+		○ Lightweight Directory Access Protocol (LDAP)
+		○ Extensible Markup Language (XML)
+	- Pointer / object dereference
+	- Directory traversal
+	- Buffer overflows
+	- Race conditions
+		○ Time of check/time of use
+	- Error handling
