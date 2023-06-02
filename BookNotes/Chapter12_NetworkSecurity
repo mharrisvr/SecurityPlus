@@ -21,6 +21,64 @@ Designing Secure Networks:
   
   5. VirtualPrivate Networks (VPNs)
   
+   - IPSec VPNs
+      - Operate at layer 3
+      - Require a client
+      - Can operate in either transport or tunnel mode
+        - Tunnel
+          - Entire packets of data sent to other end of the VPN Client is protected. 
+        -Transport
+          - IP Header is not protected, but Payload is. 
+
+      - Often used for site-to-site VPNs, and for VPNs that need to transport more than web and application traffic. 
+
+    IPSec can be used with multiple protocols
+      - Sec+ primarily cares about switch port analyzer Layer 2 Tunneling protocol (L2TP)
+      - **Learn more about L2TP**
+        - https://dataprot.net/guides/what-is-l2tp/ 5/6/2023
+        - RFC 2661
+
+    - SSL VPNs
+
+      - Typically portal based (Web Browser / HTML5)
+      - 
+
+    - Important Considerations for deciding VPN Implementation
+
+      - Site-to-site  OR Remote Access 
+
+        - Site-to-site: For linking multiple sites together
+          - usually always on / will always try to reconnect if they fail
+
+        - Remote Access: Mostly for remote users to access resources or systems. 
+          - Can toggle on/off at will. 
+
+      - Split-Tunnel or Full-Tunnel VPN
+
+        -Split-Tunnel: Only sends needed data through the VPN tunnel 
+          - Benefits
+            - Uses Less Bandwidth
+          - Cons
+            - Doesn't protect all network traffic, only protects what is going through the tunnel
+            - Can expose data you don't want to
+
+        -Full-Tunnel:Sends all traffic through the VPN tunnel keeping it secure
+          - Good for unsecured network (Public places, coffee shop, etc)
+  
   6. Network Applicances and Security Tools 
   
+      - Specialized Hardware Devices:
+        - Can be purpose built
+        - Allow highspeed traffic or other capabilities
+
+        - Jump Boxes
+          - Used to securely operate in security zones with different security levels
+
+    Load Balancing
+
+
+
+      - Virtual Machine and Cloud Based Solutions:
+        - Easier to deploy and scale
+        - 
   
